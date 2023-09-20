@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Settings - Litwell</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="css/main.css" />
+    </head>
+    <body>
+        <header>
+            <!-- Navigation Bar -->
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+                <div class="container">
+                    <a class="navbar-brand" href="home.html">Litwell.</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="my-collection.html">My Collection</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">My Stories</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="all-stories.html">All Stories</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex navbar-search" role="search">
+                            <div class="input-search-group">
+                                <img src="./assets/icon/icon-search.svg" alt="Search Icon" />
+                                <input class="form-control input-search" type="search" placeholder="Search author, title.." aria-label="Search" />
+                            </div>
+                            <a class="btn btn-icon" href="notification.html"><img src="./assets/icon/icon-notification.svg" alt="Notification Icon" /></a>
+                            <a class="btn btn-icon" href="profile.html"><img src="./assets/icon/icon-user.svg" alt="User Icon" /></a>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section class="setting">
+                <div class="container">
+                    <div class="row">
+                        <div class="setting-tabs">
+                            <a href="profile.html">Edit Profile</a>
+                            <a href="notification.html">Notification</a>
+                            <a href="setting.html" class="active">Settings</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="setting-content">
+                            <div class="setting-content-general">
+                                <h3>General Settings</h3>
+                                <hr style="border: 1px solid #2e4f4f" />
+                                <h5>Mode</h5>
+                                <p>Change website background to dark or light theme</p>
+                            </div>
+                            <div class="setting-content-account">
+                                <h3>Accounts Settings</h3>
+                                <hr style="border: 1px solid #2e4f4f" />
+                                <h5>Change Password</h5>
+                                <a href="#" class="btn-setting-white">Change Password</a>
+                                <h5>Delete my Litwell account</h5>
+                                <p>If you delete your account, you will lose access to all associated bookmarks, purchases, and settings. Account deletion is irreversible.</p>
+                                <a href="#" class="btn-setting-red">Delete Account</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="footer-1">
+                            <h3><a href="home.html">Litwell.</a></h3>
+                            <div class="footer-logo">
+                                <a href="#"><img src="./assets/img/logo-appstore.png" alt="Logo Appstore" /></a>
+                                <a href="#"><img src="./assets/img/logo-googleplay.png" alt="Logo Google Play" /></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="footer-2">
+                            <p class="footer-list-title">Pages</p>
+                            <ul>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="footer-3">
+                            <p class="footer-list-title">Informations</p>
+                            <ul>
+                                <li><a href="#">Announcements</a></li>
+                                <li><a href="#">Help</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="footer-4">
+                            <ul class="footer-social">
+                                <li>
+                                    <a href="#"><img src="./assets/icon/icon-facebook.svg" alt="Icon Facebook" /></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="./assets/icon/icon-twitter.svg" alt="Icon Twitter" /></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="./assets/icon/icon-discord.svg" alt="Icon Discord" /></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="./assets/icon/icon-instagram.svg" alt="Icon Instagram" /></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row footer-bottom">
+                    <ul>
+                        <li><a href="tos.html">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    </body>
+</html>
